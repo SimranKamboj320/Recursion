@@ -8,10 +8,10 @@ public class Recursion {
         }
         //kaam
         //vertical choice
-        int fnm1 = TilingProblem(n-1);
+        int vert = TilingProblem(n-1);
 
         //horizontal choice
-        int fnm2 = TilingProblem(n-2);
+        int hori = TilingProblem(n-2);
 
         int totWays = fnm1 + fnm2;
         return totWays;
